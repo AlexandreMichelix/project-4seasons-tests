@@ -1,0 +1,73 @@
+.Season-root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Season-title {
+  margin: 0;
+}
+
+.Season-subtitle {
+  margin: 0;
+}
+
+.Season-content {
+  margin-top: 16px;
+}
+
+.Season-icon {
+  font-size: 64px;
+  padding: 8px;
+}
+
+body {
+  overflow: hidden;
+  background: url("https://media.ooreka.fr/public/image/mariage_succession-full-8720307.jpg");
+  background-size: cover;
+  padding: 2em 0;
+  line-height: 1.6;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.card {
+  background: #fff;
+  width: 24em;
+  border-radius: 0.6em;
+  margin: 1em;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 13px 27px -5px rgba(0, 247, 247, 0.555), 0 8px 16px -8px hsla(0, 0%, 0%, 0.3), 0 -6px 16px -6px hsla(0, 0%, 0%, 0.03);
+  transition: all ease 200ms;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 13px 40px -5px rgba(253, 4, 158, 0.527), 0 8px 32px -8px hsla(0, 0%, 0%, 0.14), 0 -6px 32px -6px hsla(0, 0%, 0%, 0.02);
+}
+
+.card h5 {
+  color: #bbb;
+  font-weight: 700;
+  font-size: 0.7em;
+  letter-spacing: 0.04em;
+  margin: 1.4em 0 0 0;
+  text-transform: uppercase;
+}
+
+.card-body {
+  display: flex;
+  padding: 1.2em;
+  justify-content: center;
+}
+/*# sourceMappingURL=index.36a39358.css.map */
